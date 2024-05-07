@@ -1,6 +1,6 @@
 (() => {
     const inputs = document.querySelectorAll('div > .hole');
-    for (var i = 0; i < inputs.length; i++) {
+    for (let i = 0; i < inputs.length; i++) {
         inputs[i].addEventListener("click", myFunction);
     }
     function myFunction() {
